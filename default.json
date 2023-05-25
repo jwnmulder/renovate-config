@@ -3,8 +3,8 @@
   "extends": [
     "github>jwnmulder/renovate-config:meta",
     "github>jwnmulder/renovate-config:fixes",
-    "github>jwnmulder/renovate-config:replacements"
-    "github>jwnmulder/renovate-config:templates"
+    "github>jwnmulder/renovate-config:replacements",
+    "github>jwnmulder/renovate-config:templates",
     "github>jwnmulder/renovate-config:pre_commit"
   ]
 }
