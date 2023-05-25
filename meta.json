@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["deconzcommunity/deconz"],
+      "sourceUrl": "https://github.com/dresden-elektronik/deconz-rest-plugin"
+    }
+  ]
+}
