@@ -24,6 +24,12 @@
       "matchDatasources": ["github-releases", "github-tags"],
       "matchPackageNames": ["kubernetes-sigs/kustomize"],
       "extractVersion": "^kustomize\\/(?<version>v\\d+\\.\\d+\\.\\d+)$"
+    },
+    {
+      "description": "shellcheck-py/shellcheck-py github-tags use pep440 versioning",
+      "matchDatasources": ["github-tags"],
+      "matchPackageNames": ["shellcheck-py/shellcheck-py"],
+      "versioning": "pep440"
     }
   ]
 }
