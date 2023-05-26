@@ -16,7 +16,13 @@
     {
       "description": "psf/black github releases use pep440 versioning",
       "matchDatasources": ["github-releases", "github-tags"],
-      "matchPackageNames": "psf/black",
+      "matchPackageNames": ["psf/black"],
+      "versioning": "pep440"
+    },
+    {
+      "description": "shellcheck-py/shellcheck-py github-tags use pep440 versioning",
+      "matchDatasources": ["github-tags"],
+      "matchPackageNames": ["shellcheck-py/shellcheck-py"],
       "versioning": "pep440"
     },
     {
@@ -24,12 +30,6 @@
       "matchDatasources": ["github-releases", "github-tags"],
       "matchPackageNames": ["kubernetes-sigs/kustomize"],
       "extractVersion": "^kustomize\\/(?<version>v\\d+\\.\\d+\\.\\d+)$"
-    },
-    {
-      "description": "shellcheck-py/shellcheck-py github-tags use pep440 versioning",
-      "matchDatasources": ["github-tags"],
-      "matchPackageNames": ["shellcheck-py/shellcheck-py"],
-      "versioning": "pep440"
     }
   ]
 }
