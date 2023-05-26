@@ -18,6 +18,12 @@
       "matchDatasources": ["github-releases", "github-tags"],
       "matchPackageNames": "psf/black",
       "versioning": "pep440"
+    },
+    {
+      "description": "Fix kubernetes-sigs/kustomize versioning scheme which uses package prefixes in its tags"
+      "matchDatasources": ["github-releases", "github-tags"],
+      "matchPackageNames": ["kubernetes-sigs/kustomize"],
+      "extractVersion": "^kustomize\\/(?<version>v\\d+\\.\\d+\\.\\d+)$"
     }
   ]
 }
