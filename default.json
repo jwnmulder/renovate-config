@@ -10,7 +10,7 @@
     "github>jwnmulder/renovate-config:meta",
     "github>jwnmulder/renovate-config:fixes",
     "github>jwnmulder/renovate-config:replacements",
-    "github>jwnmulder/renovate-config:pre-commit"
+    "github>jwnmulder/renovate-config:pre-commit",
 
     "github>jwnmulder/renovate-config:templates"
   ],
