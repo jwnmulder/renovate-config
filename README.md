@@ -2,6 +2,8 @@
 
 Shared renovate presets & defaults settings / best practices for my own repositories.
 
+See <https://docs.renovatebot.com/config-presets> for detailed information and usage instructions.
+
 ## Usage instructions
 
 To include all presets including my own personal bot preferences.
