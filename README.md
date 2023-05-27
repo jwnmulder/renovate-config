@@ -1,10 +1,10 @@
 # renovate-config
 
-Shared renovate presets & defaults settings / best practices for my own repositories
+Shared renovate presets & defaults settings / best practices for my own repositories.
 
 ## Usage instructions
 
-To include all presets including my own personal bot preferences
+To include all presets including my own personal bot preferences.
 
 ```json
 {
@@ -15,7 +15,7 @@ To include all presets including my own personal bot preferences
 }
 ```
 
-As an alternative, the following example will only include Renovate improvements without changing bot behavior. No personal preferences are included in these files
+As an alternative, the following example will only include Renovate improvements without changing bot behavior. No personal preferences are included in these files.
 
 ```json
 {
@@ -25,7 +25,7 @@ As an alternative, the following example will only include Renovate improvements
     "github>jwnmulder/renovate-config:fixes",
     "github>jwnmulder/renovate-config:meta",
     "github>jwnmulder/renovate-config:pre-commit",
-    "github>jwnmulder/renovate-config:replacements",
+    "github>jwnmulder/renovate-config:replacements"
   ]
 }
 ```
