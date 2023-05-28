@@ -1,0 +1,12 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+      "config:base",
+
+      "github>jwnmulder/renovate-config:fixes",
+      "github>jwnmulder/renovate-config:meta",
+      "github>jwnmulder/renovate-config:replacements",
+      "github>jwnmulder/renovate-config:pre-commit"
+    ]
+  }
+  

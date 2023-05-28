@@ -17,7 +17,18 @@ To include all presets including my own personal bot preferences.
 }
 ```
 
-As an alternative, the following example will only include Renovate improvements without changing bot behavior. No personal preferences are included in these files.
+As an alternative, the following example will only include Renovate improvements, extending from config:base. No personal preferences are included in these files.
+
+```json
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>jwnmulder/renovate-config:base"
+  ]
+}
+```
+
+which is similar to
 
 ```json
 {
