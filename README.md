@@ -2,7 +2,7 @@
 
 Sharable Renovate presets including default settings and best practices for my own repositories.
 
-See <https://docs.renovatebot.com/config-presets> for detailed information and usage instructions.
+See <https://docs.renovatebot.com/config-presets> for general information and instructions around presets.
 
 ## Usage instructions
 
