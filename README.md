@@ -1,6 +1,6 @@
 # renovate-config
 
-Shared renovate presets & defaults settings / best practices for my own repositories.
+Sharable Renovate presets including default settings and best practices for my own repositories.
 
 See <https://docs.renovatebot.com/config-presets> for detailed information and usage instructions.
 
