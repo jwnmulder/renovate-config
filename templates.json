@@ -1,5 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "regexManagers": [
+    {
+      "description": "pre-commit-config regex matcher: '<depName>==<currentValue> # renovate: datasource=<datasource>'",
+      "fileMatch": ["(^|/)\\.pre-commit-config\\.yaml$"],
+      "matchStrings": [
+        "\\s*- (?<depName>.*?)==(?<currentValue>.*?)\\s+#\\s+renovate: datasource=(?<datasource>.*?)\\s"
+      ]
+    }
   ]
 }
