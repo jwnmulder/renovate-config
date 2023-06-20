@@ -5,6 +5,11 @@
       "matchDatasources": ["docker"],
       "matchPackageNames": ["deconzcommunity/deconz"],
       "sourceUrl": "https://github.com/dresden-elektronik/deconz-rest-plugin"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["grafana/grafana"],
+      "sourceUrl": "https://github.com/grafana/grafana"
     }
   ]
 }
