@@ -4,7 +4,7 @@
     {
       "matchDatasources": ["docker"],
       "matchPackageNames": ["deconzcommunity/deconz"],
-      "sourceUrl": "https://github.com/dresden-elektronik/deconz-rest-plugin"
+      "customChangelogUrl": "https://github.com/dresden-elektronik/deconz-rest-plugin"
     },
     {
       "matchDatasources": ["docker"],
@@ -14,6 +14,7 @@
     {
       "matchDatasources": ["docker"],
       "matchPackageNames": ["myoung34/github-runner"],
+      "sourceUrl": "https://github.com/myoung34/github-runner",
       "customChangelogUrl": "https://github.com/actions/runner"
     }
   ]
