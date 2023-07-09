@@ -14,7 +14,7 @@
     {
       "matchDatasources": ["docker"],
       "matchPackageNames": ["myoung34/github-runner"],
-      "sourceUrl": "https://github.com/actions/runner"
+      "customChangelogUrl": "https://github.com/actions/runner"
     }
   ]
 }
