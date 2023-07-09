@@ -10,6 +10,11 @@
       "matchDatasources": ["docker"],
       "matchPackageNames": ["grafana/grafana"],
       "sourceUrl": "https://github.com/grafana/grafana"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["myoung34/github-runner"],
+      "sourceUrl": "https://github.com/actions/runner"
     }
   ]
 }
