@@ -34,7 +34,7 @@ which is similar to
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
+    "config:recommended",
     "github>jwnmulder/renovate-config:fixes",
     "github>jwnmulder/renovate-config:meta",
     "github>jwnmulder/renovate-config:pre-commit",
