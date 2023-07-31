@@ -20,6 +20,11 @@
       "matchPackageNames": ["myoung34/github-runner"],
       "sourceUrl": "https://github.com/myoung34/docker-github-actions-runner",
       "customChangelogUrl": "https://github.com/actions/runner"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["rhasspy/wyoming-piper"],
+      "sourceUrl": "https://github.com/rhasspy/piper"
     }
   ]
 }
