@@ -29,6 +29,11 @@
         "Docker image source: https://github.com/rhasspy/wyoming-addons",
         "Changelog piper: https://github.com/rhasspy/piper/releases"
       ]
-    }
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["eclipse-mosquitto"],
+      "sourceUrl": "https://github.com/eclipse/mosquitto"
+    },
   ]
 }
