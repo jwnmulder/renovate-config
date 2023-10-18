@@ -3,7 +3,10 @@
   "packageRules": [
     {
       "matchDatasources": ["docker"],
-      "matchPackageNames": ["deconzcommunity/deconz"],
+      "matchPackageNames": [
+        "deconzcommunity/deconz",
+        "ghcr.io/deconz-community/deconz-docker"
+      ],
       "sourceUrl": "https://github.com/deconz-community/deconz-docker",
       "customChangelogUrl": "https://github.com/dresden-elektronik/deconz-rest-plugin",
       "prBodyNotes": [
