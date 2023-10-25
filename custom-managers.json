@@ -1,12 +1,22 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "regexManagers": [
+  "customManagers": [
     {
-      "description": "pre-commit-config regex matcher: '<depName>==<currentValue> # renovate: datasource=<datasource>'",
+      "description": "pre-commit-config regex matcher: '- <depName>==<currentValue> # renovate: datasource=<datasource>'",
+      "customType": "regex",
       "fileMatch": ["(^|/)\\.pre-commit-config\\.yaml$"],
       "matchStrings": [
         "\\s*- (?<depName>.*?)==(?<currentValue>.*?)\\s+#\\s+renovate: datasource=(?<datasource>.*?)\\s"
       ]
+    },
+    {
+      "description": "pre-commit-config regex matcher: 'language: docker_image\n  entry:<depName>:<currentValue>'",
+      "customType": "regex",
+      "fileMatch": ["(^|/)\\.pre-commit-config\\.yaml$"],
+      "matchStrings": [
+        "\\s*language:\\sdocker_image\n\\s*entry:\\s(?<depName>.*?):(?<currentValue>.*?)\\s.*"
+      ],
+      "datasourceTemplate": "docker"
     }
   ]
 }
