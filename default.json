@@ -4,7 +4,7 @@
     "github>jwnmulder/renovate-config:base",
     ":enablePreCommit",
     "docker:enableMajor",
-    "github>whitesource/merge-confidence:beta",
+    "mergeConfidence:all-badges",
 
     "github>jwnmulder/renovate-config:custom-managers.json"
   ],
