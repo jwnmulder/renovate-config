@@ -28,6 +28,7 @@
       "matchDatasources": ["docker"],
       "matchPackageNames": ["rhasspy/wyoming-piper"],
       "sourceUrl": "https://github.com/rhasspy/wyoming-addons/tree/master/piper",
+      "custoChangelogUrl": "https://github.com/rhasspy/wyoming-addons/blob/master/piper/CHANGELOG.md",
       "prBodyNotes": [
         "Docker image source: https://github.com/rhasspy/wyoming-addons",
         "Changelog piper: https://github.com/rhasspy/piper/releases"
