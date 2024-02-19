@@ -11,7 +11,7 @@
       "description": "Fix photoprism/photoprism docker image versioning (yyyymmdd)",
       "matchDatasources": ["docker"],
       "matchPackageNames": ["photoprism/photoprism"],
-      "versioning": "regex:^(\\d{2})?(?<major>\\d{2})(?<minor>\\d{2})(?<patch>\\d{2})(-(?<compatibility>\\w+))?$"
+      "versioning": "regex:^(\\d{2})?(?<major>\\d{2})\\.*(?<minor>\\d{2})\\.*(?<patch>\\d{2})(-(?<compatibility>\\w+))?$"
     },
     {
       "description": "psf/black github releases use pep440 versioning",
