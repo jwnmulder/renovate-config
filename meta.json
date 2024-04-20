@@ -36,6 +36,16 @@
     },
     {
       "matchDatasources": ["docker"],
+      "matchPackageNames": ["rhasspy/wyoming-whisper"],
+      "sourceUrl": "https://github.com/rhasspy/wyoming-addons/tree/master/whisper",
+      "customChangelogUrl": "https://github.com/rhasspy/wyoming-addons/blob/master/whisper/CHANGELOG.md",
+      "prBodyNotes": [
+        "Docker image source: https://github.com/rhasspy/wyoming-addons",
+        "Changelog whisper: https://github.com/rhasspy/wyoming-faster-whisper/releases"
+      ]
+    },
+    {
+      "matchDatasources": ["docker"],
       "matchPackageNames": ["eclipse-mosquitto"],
       "sourceUrl": "https://github.com/eclipse/mosquitto"
     },
