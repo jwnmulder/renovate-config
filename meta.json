@@ -8,7 +8,7 @@
         "ghcr.io/deconz-community/deconz-docker"
       ],
       "overrideDatasource": "github-releases",
-      "overridePackageName": "dresden-elektronik/deconz-rest-plugin/releases"
+      "overridePackageName": "dresden-elektronik/deconz-rest-plugin"
     },
     {
       "matchDatasources": ["docker"],
