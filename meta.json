@@ -53,6 +53,13 @@
       "prBodyNotes": [
         "Changelog: https://ui.com/download/releases/network-server"
       ]
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": [
+        "ghcr.io/immich-app/immich-server"
+      ],
+      "sourceUrl": "https://github.com/immich-app/immich"
     }
   ]
 }
