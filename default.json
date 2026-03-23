@@ -3,15 +3,21 @@
   "extends": [
     "github>jwnmulder/renovate-config:base",
     ":enablePreCommit",
+    ":configMigration",
+
+    "abandonments:recommended",
     "docker:enableMajor",
     "mergeConfidence:all-badges",
+    "security:minimumReleaseAgeNpm",
 
     "github>jwnmulder/renovate-config:custom-managers.json"
   ],
-  
+
   "vulnerabilityAlerts": {
     "labels": ["vulnerability"]
   },
+
+  "minimumReleaseAge": "3 days",
 
   "major": {
     "dependencyDashboardApproval": true
